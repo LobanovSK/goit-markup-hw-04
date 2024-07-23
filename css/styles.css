@@ -314,8 +314,10 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.list-our-portfolio:hover {
-  transform: translateY(0);
+.list-our-portfolio:hover > .our-portfolio-cover .our-portfolio-cover-text {
+  width: 100%;
+  height: 100%;
+  transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -378,7 +380,7 @@ a {
 }
 .footer-social-list {
   display: flex;
-  gap: 16ps;
+  gap: 16px;
 }
 .team-social-item {
   width: 40px;
